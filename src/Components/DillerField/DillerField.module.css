@@ -1,0 +1,40 @@
+.cardPosition{
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+}
+
+.btnPosition{
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+}
+.score{
+    position: absolute;
+    left: 1195px;
+    top: 200px;
+}
+
+.secondCardPosition{
+    position: absolute;
+    z-index: 5px;
+    top: 50px;
+}
+
+.thirdCardPosition{
+    position: absolute;
+    z-index: 10px;
+    top: 100px;
+}
+
+.fourthCardPosition{
+    position: absolute;
+    z-index: 15px;
+    top: 150px;
+}
+
+.fifthCardPosition{
+    position: absolute;
+    z-index: 20px;
+    top: 200px;
+}

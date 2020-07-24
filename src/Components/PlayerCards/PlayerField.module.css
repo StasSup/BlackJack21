@@ -1,0 +1,61 @@
+.cardPosition{
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+
+.btnPosition{
+    position: absolute;
+    left: 800px;
+    top: 350px;
+}
+
+.errorBet{
+    color: firebrick;
+    font-weight: 700;
+}
+
+.score {
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+
+.newgameBtn{
+    margin-top: 20px;
+    left: 900px;
+    top: 150px;
+}
+
+.credit{
+    display: flex;
+    position: absolute;
+    left: 774px;
+    top: 100px;
+}
+
+.secondCardPosition{
+    position: absolute;
+    z-index: 5px;
+    top: 50px;
+}
+
+.thirdCardPosition{
+    position: absolute;
+    z-index: 10px;
+    top: 100px;
+}
+
+.fourthCardPosition{
+    position: absolute;
+    z-index: 15px;
+    top: 150px;
+}
+
+.fifthCardPosition{
+    position: absolute;
+    z-index: 20px;
+    top: 200px;
+}
+
+

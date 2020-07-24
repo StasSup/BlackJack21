@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Components/Header/Header";
+import PlayerField from "./Components/PlayerCards/PlayerField";
+import DillerField from "./Components/DillerField/DillerField";
+import NewBetForm from "./Components/NewBetForm/NewBetForm";
 
-function App() {
+const App = (props) => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header state={props.state}/>
+      <NewBetForm state={props.state} newGame={props.newGame} updateBetBalance={props.updateBetBalance} newPaymentBalance={props.newPaymentBalance} btnChange={props.btnChange}/>
+      <PlayerField state={props.state} PlayerCard={props.PlayerCard} />
+      <DillerField state={props.state} dillerTakesCards={props.dillerTakesCards} btnChange={props.btnChange}/>
     </div>
   );
 }

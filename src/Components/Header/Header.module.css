@@ -1,0 +1,16 @@
+.logo{
+    width: 45px;
+    height: 40px;
+}
+
+.HeaderWrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mainWrapper{
+    background-color: darkslategrey;
+}
